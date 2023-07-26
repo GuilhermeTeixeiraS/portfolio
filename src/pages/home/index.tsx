@@ -49,6 +49,9 @@ export const Home = (): JSX.Element => {
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
               </Button>
+              <Button as="a" href= {`https://github.com/GuilhermeTeixeiraS/portfolio`} target="_blank" type="btLink" color="grey5">
+                See my code
+              </Button>
             </HeaderButtonsArea>
           </HeaderContent>
         </Container>
