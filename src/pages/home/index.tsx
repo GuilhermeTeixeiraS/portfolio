@@ -34,13 +34,14 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" React"}
             </Text>
             <Text type="body1" color="grey6">
-              Quando criança tive dificuldade de aprender a ler e escrever,
-              depois descobri que tinha dislexia, contudo toda minha dificuldade
-              com matérias de humanas, foi trocada para facilidade de exatas,
-              sempre fui bem criativo disposto a ajudar e interagir. Atualmente,
-              estudo desenvolvimento web full stack na Kenzie Academy Brasil,
-              com o intuito de me tornar desenvolvedor, meu compromisso com a
-              tecnologia é ser eficiente.
+              Sou um desenvolvedor web Full Stack experiente, especializado em
+              HTML, CSS, JavaScript, Typescript, React, NodeJS, Python e Django.
+              Minha jornada inclui criação de interfaces interativas e
+              responsivas, além de APIs seguras. Trabalhando com metodologias
+              ágeis como SCRUM, otimizo minha eficiência com ferramentas como
+              Trello. Minha expertise em tecnologias me permite contribuir de
+              forma significativa para projetar aplicações web e móveis modernas
+              e escaláveis.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -49,7 +50,13 @@ export const Home = (): JSX.Element => {
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
               </Button>
-              <Button as="a" href= {`https://github.com/GuilhermeTeixeiraS/portfolio`} target="_blank" type="btLink" color="grey5">
+              <Button
+                as="a"
+                href={`https://github.com/GuilhermeTeixeiraS/portfolio`}
+                target="_blank"
+                type="btLink"
+                color="grey5"
+              >
                 See my code
               </Button>
             </HeaderButtonsArea>
@@ -76,9 +83,9 @@ export const Home = (): JSX.Element => {
                 Vamos trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estarei compartilhando meus projetos e objetivos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá no Linkedin
+                No linkedIn sempre estarei compartilhando meus projetos e
+                objetivos diários para desenvolver esses projetos e estou
+                disposto a trocar algumas ideias por lá no Linkedin
               </Text>
               <Button
                 type="primary"
